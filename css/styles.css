@@ -72,8 +72,20 @@ ul {
     color: var(--ocean);
 }
 
-.address-list {
+.mail {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    text-decoration: none;
+}
 
+.mail:hover,
+.mail:focus {
+    color: var(--ocean);
+}
+
+.tel {
 
     font-size: 16px;
     line-height: 150%;
@@ -82,8 +94,8 @@ ul {
     text-decoration: none;
 }
 
-.address-list:hover,
-.address-list:focus {
+.tel:hover,
+.tel:focus {
     color: var(--ocean);
 }
 
@@ -97,11 +109,10 @@ ul {
 
 .fon-hero {
     width: 1440px;
-    height: 600px;
     background: var(--navy-blue);
     text-align: center;
 
-    padding: 200px 0px;
+
 }
 
 .hero-title {
@@ -116,7 +127,6 @@ ul {
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
-    height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
     color: white;
@@ -159,8 +169,9 @@ ul {
 /* /////////////team///////////////////// */
 
 .team {
-    width: 1440px;
+    
     background: var(--cloud);
+
 }
 
 .team-list>h3 {
@@ -190,17 +201,13 @@ ul {
 
 /* //////////////footer//////////////// */
 .footer-fon {
-    width: 1440px;
-    height: 312px;
+
     background: var(--navy-blue);
-    margin: auto;
-    padding: 200px 0px;
 }
 
 
 .footer-text {
     font-family: var(--font-family);
-
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -252,12 +259,12 @@ ul {
 
 .button-portfolio .all {
     width: 69px;
-    ;
+    
 }
 
 .button-portfolio .web {
     width: 116px;
-    ;
+    
 }
 
 .button-portfolio .app {
